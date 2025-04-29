@@ -1,0 +1,25 @@
+OYBΞK_MSL, [26.04.2025 19:36]
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Memory Card Game</title>
+</head>
+<body>
+  <h1>Memory Card Game</h1>
+  <div class="stats">
+    ⏱ Время: <span id="timer">0</span> сек |
+    🔁 Проигрышей: <span id="lossCount">0</span> |
+    🏆 Рекорд: <span id="bestTime">–</span> сек
+  </div>
+  <div class="game-board" id="gameBoard"></div>
+  <div id="gameOver" class="hidden">
+    <div>
+      <div class="message">ВЫ ПРОИГРАЛИ</div>
+      <button id="restartBtn">ЗАНОВО</button>
+    </div>
+  </div>
+<script src="./script.js"></script>
+</body>
+</html>
